@@ -45,8 +45,11 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
             transform.Translate(Vector3.back * movementSpeed * Time.deltaTime);
 
-        //shooting
-        if (Input.GetMouseButtonDown(0))
+        //Walking animaton
+        
+
+            //shooting
+            if (Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
